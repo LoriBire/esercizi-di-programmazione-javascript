@@ -17,3 +17,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+var cats = 5;
+var catsPerLine = 2;
+
+var lines = Math.ceil(cats/catsPerLine);
+var rest = cats%catsPerLine;
+
+console.log('numero di file: ' + cats + ' gatti mancanti: ' + rest);
