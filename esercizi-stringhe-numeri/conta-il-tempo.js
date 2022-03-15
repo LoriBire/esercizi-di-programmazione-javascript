@@ -12,3 +12,15 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var input = 91;
+
+var hours = Math.trunc(input/3600);
+
+var rest = input%3600;
+
+var minutes = Math.trunc(rest/60);
+
+var seconds = rest%60;
+
+console.log(hours + ' ore, ' + minutes +' minuti, ' +  seconds + ' secondi');
